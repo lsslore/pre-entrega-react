@@ -1,0 +1,26 @@
+.boton {
+  background: transparent;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.icono {
+  width: 25px;
+  height: 25px;
+  fill: transparent;
+  stroke: #fcfcfc;
+  stroke-width: 2px;
+  transition: all 0.2s ease;
+}
+
+.boton:not(.activo):hover .icono {
+  fill: hsl(27, 98%, 49%);
+  stroke: hsl(0, 98%, 50%);
+}
+
+/* cambia cuando el esfavorito esta en true  */
+.activo .icono {
+  fill:  #ff0307;
+  stroke: #fa7910;
+}

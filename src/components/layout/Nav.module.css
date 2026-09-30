@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link {
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
+
+.link:hover {
+  color: var(--neon-green);
+}
+
+.linkCarrito {
+  border: 1px solid var(--neon-green);
+  color: var(--neon-green);
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+}

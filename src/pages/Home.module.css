@@ -1,0 +1,30 @@
+.contenedor {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.titulo {
+  color: var(--neon-green);
+  margin-bottom: 1rem;
+}
+
+.subtitulo {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.boton {
+  background: var(--neon-green);
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(36, 247, 88, 0.89); 
+  outline: 3px solid rgb(2, 250, 35)
+}
+
+.boton:hover {
+  background-color: #7ff531;
+  
+} 

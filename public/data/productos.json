@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "nombre": "Teclado Mecánico CyberNeon",
+    "precio": 120,
+    "categoria": "Periféricos",
+    "descripcion": "Teclado mecánico con switches táctiles y retroiluminación verde flúor reactiva.",
+    "imagen": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "2",
+    "nombre": "Auriculares Flúor Sound Pro",
+    "precio": 85,
+    "categoria": "Audio",
+    "descripcion": "Sonido envolvente 7.1 con cancelación de ruido activa y diseño futurista.",
+    "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "3",
+    "nombre": "Mouse Gamer HyperGlide",
+    "precio": 45,
+    "categoria": "Periféricos",
+    "descripcion": "Sensor óptico de 16,000 DPI con agarre ergonómico antideslizante.",
+    "imagen": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "4",
+    "nombre": "Monitor LED Curved 240Hz",
+    "precio": 350,
+    "categoria": "Monitores",
+    "descripcion": "Monitor curvo OLED UltraWide con tasa de refresco ultra rápida de 240Hz.",
+    "imagen": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "5",
+    "nombre": "Pad Mouse XXL RGB Neon",
+    "precio": 25,
+    "categoria": "Accesorios",
+    "descripcion": "Alfombrilla antideslizante con costuras reforzadas e iluminación neón bordada.",
+    "imagen": "https://images.unsplash.com/photo-1631098985305-d57413e94950?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "6",
+    "nombre": "Silla Gamer Ergonómica Green",
+    "precio": 210,
+    "categoria": "Mobiliario",
+    "descripcion": "Silla ergonómica con soporte lumbar regulable y tapizado negro/verde.",
+    "imagen": "https://images.unsplash.com/photo-1770194993269-2521ad916c23?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "7",
+    "nombre": "Micrófono Condensador Studio",
+    "precio": 95,
+    "categoria": "Audio",
+    "descripcion": "Micrófono cardioide USB ideal para streaming, podcasting y grabación de alta fidelidad.",
+    "imagen": "https://plus.unsplash.com/premium_photo-1664195074777-a7c40926f5c2?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "8",
+    "nombre": "Webcam HD Pro CyberStream",
+    "precio": 65,
+    "categoria": "Accesorios",
+    "descripcion": "Cámara Full HD 1080p con enfoque automático y micrófono estéreo integrado.",
+    "imagen": "https://images.unsplash.com/photo-1742233101475-45c95ed028cb?w=500&auto=format&fit=crop&q=60"
+  }
+]

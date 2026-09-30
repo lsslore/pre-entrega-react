@@ -1,0 +1,109 @@
+.footer {
+  background-color: #040404;
+  border-top: 1px solid #1f1f1f;
+  padding: 2rem 1.5rem 1rem 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footerSection h4 {
+  color: var(--neon-green);
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footerSection p {
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* Newsletter */
+.newsletterInput {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.newsletterInput input {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  padding: 0.5rem;
+  border-radius: 4px;
+  outline: none;
+  flex: 1;
+}
+
+.newsletterInput input:focus {
+  border-color: var(--neon-green);
+}
+
+.newsletterInput button {
+  background: var(--neon-green);
+  color: #000;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Tarjetas de Integrantes */
+.teamContainer {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.teamCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+  flex: 1;
+}
+
+.teamCard img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--neon-green);
+  object-fit: cover;
+  margin-bottom: 0.3rem;
+}
+
+.teamCard h5 {
+  color: var(--text-main);
+  font-size: 0.8rem;
+  
+}
+
+.teamCard span {
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  display: block;
+}
+
+/* Bottom / Legales */
+.footerBottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #111;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}

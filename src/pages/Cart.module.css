@@ -1,0 +1,9 @@
+.contenedor {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.texto {
+  color: var(--text-muted);
+  margin-top: 1rem;
+}

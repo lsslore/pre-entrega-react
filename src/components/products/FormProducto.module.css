@@ -1,0 +1,70 @@
+.formulario {
+  display: grid;
+  gap: 1rem;
+  width: min(100%, 38rem);
+  margin: 0 auto;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-card);
+}
+
+.titulo {
+  margin-bottom: 0.25rem;
+  color: var(--neon-green);
+  font-size: 1.4rem;
+}
+
+.campo {
+  display: grid;
+  gap: 0.4rem;
+  color: var(--text-main);
+  font-size: 0.9rem;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-color);
+  color: var(--text-main);
+  font: inherit;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: var(--neon-green);
+  outline: 1px solid var(--neon-green);
+}
+
+.textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
+
+.boton {
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--neon-green);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--neon-green);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.boton:hover:not(:disabled) {
+  background: var(--neon-green);
+  color: #000;
+}
+
+.boton:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.error {
+  color: #ff7272;
+}

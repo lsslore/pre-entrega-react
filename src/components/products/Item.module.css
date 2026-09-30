@@ -1,0 +1,77 @@
+.card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--neon-green);
+  transform: translateY(-3px);
+}
+
+.imagen {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.titulo {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.precio {
+  color: var(--neon-green);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.contador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 0.8rem;
+}
+
+.contadorBoton {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--neon-green);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--neon-green);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contadorBoton:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.boton {
+  background: transparent;
+  color: var(--neon-green);
+  border: 1px solid var(--neon-green);
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: block;
+}
+
+.boton:hover {
+  background: var(--neon-green);
+  color: black;
+}

@@ -1,0 +1,67 @@
+.contenedor {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.imagen {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 6px;
+  border: 1px solid var(--neon-green);
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.categoria {
+  background: #1c1c1c;
+  color: var(--neon-green);
+  padding: 0.2rem 0.5rem;
+  font-size: 0.85rem;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+.descripcion {
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.precio {
+  color: var(--neon-green);
+  font-size: 1.8rem;
+}
+
+.acciones {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.botonComprar {
+  background: var(--neon-green);
+  color: #000;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.linkVolver {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  
+}
+
+.mensaje {
+  text-align: center;
+  margin-top: 2rem;
+}

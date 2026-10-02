@@ -1,4 +1,4 @@
-# PRE-ENTREGA REACT JS Y VITE
+# PRE-ENTREGA REACT JS Y VITE - Talento Tech 
 
 Tienda de tecnología desarrollada con React y Vite. El proyecto permite recorrer un catálogo, consultar el detalle de productos y navegar entre las secciones de la tienda.
 

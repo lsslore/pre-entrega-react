@@ -1,4 +1,4 @@
-# PRE-ENTREGA REACT JS CON VITE - Talento Tech 
+# PRE-ENTREGA - REACT JS CON VITE - Talento Tech 
 
 Tienda de tecnología desarrollada con React y Vite. El proyecto permite recorrer un catálogo, consultar el detalle de productos y navegar entre las secciones de la tienda.
 
@@ -56,7 +56,7 @@ Se requiere Node.js y pnpm. Desde la carpeta del proyecto, instala las dependenc
 ```bash
 
 - pnpm install
- # Descarga e instala todas las dependencias y librerías.
+# Descarga e instala todas las dependencias y librerías.
 
 - pnpm run dev
 # Inicia el servidor de desarrollo local de Vite.

@@ -50,23 +50,20 @@ Para habilitar la subida:
 
 Se requiere Node.js y pnpm. Desde la carpeta del proyecto, instala las dependencias declaradas en `package.json` y `pnpm-lock.yaml`:
 
-```bash
-pnpm install
-```
-
-Si se necesita agregar React Router a otro proyecto React con pnpm, el comando es:
-
-```bash
-pnpm add react-router-dom
-```
 
 ## Comandos del proyecto
 
 ```bash
-pnpm dev      # Inicia Vite en modo desarrollo
-pnpm build    # Compila la aplicación en dist/
-pnpm preview  # Sirve localmente la compilación de producción
-pnpm lint     # Ejecuta ESLint
+
+- pnpm install
+ # Descarga e instala todas las dependencias y librerías.
+
+- pnpm run dev
+# Inicia el servidor de desarrollo local de Vite.
+
+- pnpm add react-router-dom
+# Instala y agrega la librería React Router.
+
 ```
 
 ## Estructura principal
